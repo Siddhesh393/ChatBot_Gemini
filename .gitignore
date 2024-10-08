@@ -1,0 +1,24 @@
+# Ignore everything in the parent directory
+../*
+
+# Ignore specific file types
+*.log
+*.tmp
+*.DS_Store
+*.swp
+
+# Ignore system files (Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore all hidden files
+.*
+!.gitignore
+
+# Ignore specific directories (adjust according to your project)
+node_modules/
+venv/
+build/
+dist/
+.vscode/
